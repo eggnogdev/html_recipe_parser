@@ -1,7 +1,5 @@
 # html_recipe_parser
 
-This is a port of [HTML Recipe Parser](https://github.com/mschunke/html-recipe-parser/tree/master)
-
 ## Features
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
