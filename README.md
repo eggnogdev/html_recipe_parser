@@ -17,7 +17,7 @@ This package is currently only available through git, so write the following int
 dependencies:
   measurements:
     git:
-      url: git@codeberg.org:eggnog/html_recipe_parser.git
+      url: https://codeberg.org/eggnog/html_recipe_parser.git
       ref: 0.1.0 # the tag, commit, or branch that you want
 
 
