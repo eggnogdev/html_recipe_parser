@@ -1,12 +1,15 @@
 name: html_recipe_parser
-description: HTML recipe parser for recipies following https://schema.org/Recipe
-version: 0.0.1
-homepage: https://codeberg.org/eggnog/html_recipe_parser
+description: A starting point for Dart libraries or applications.
+version: 0.1.0
+repository: https://codeberg.org/eggnog/html_recipe_parser
 
 environment:
-  sdk: '>=3.1.5 <4.0.0'
-  flutter: ">=1.17.0"
+  sdk: ^3.1.5
 
 dependencies:
   html: ^0.15.4
   http: ^1.1.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0

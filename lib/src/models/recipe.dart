@@ -1,6 +1,6 @@
-import 'package:html_recipe_parser/models/image.dart';
-import 'package:html_recipe_parser/models/ingredient.dart';
-import 'package:html_recipe_parser/models/instruction.dart';
+import 'image.dart';
+import 'ingredient.dart';
+import 'instruction.dart';
 
 class Recipe {
   Recipe({
