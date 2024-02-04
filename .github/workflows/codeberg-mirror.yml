@@ -16,4 +16,4 @@ jobs:
         with:
           REMOTE: "https://codeberg.org/eggnog/html_recipe_parser.git"
           GIT_USERNAME: eggnog
-          GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
+          GIT_PASSWORD: ${{ secrets.CB_PASSWORD }}
