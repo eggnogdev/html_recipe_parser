@@ -1,0 +1,19 @@
+# Sync repo to the Codeberg mirror
+name: Mirror Sync
+on:
+  push:
+    branches:
+    - '**'
+
+jobs:
+  codeberg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: yesolutions/mirror-action@v0.7.0
+        with:
+          REMOTE: "https://codeberg.org/eggnog/html_recipe_parser.git"
+          GIT_USERNAME: eggnog
+          GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
