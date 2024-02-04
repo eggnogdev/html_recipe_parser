@@ -1,6 +1,6 @@
 name: html_recipe_parser
 description: An HTML recipe parser for websites that adhere to schema.org's Recipe schema
-version: 0.2.0
+version: 0.3.0
 repository: https://codeberg.org/eggnog/html_recipe_parser
 
 environment:

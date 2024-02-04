@@ -4,7 +4,7 @@ import 'instruction.dart';
 
 class Recipe {
   const Recipe({
-    this.uri,
+    this.url,
     required this.name,
     required this.description,
     required this.ingredients,
@@ -12,7 +12,7 @@ class Recipe {
     required this.instructions,
   });
 
-  final Uri? uri;
+  final String? url;
   final String name;
   final String description;
   final List<Ingredient> ingredients;
@@ -21,13 +21,13 @@ class Recipe {
 
   /// Create the [Recipe] instance from a JSON object.
   ///
-  /// optionally set `originUri` to save the uri of the [Recipe]
+  /// optionally set `originUrl` to save the url of the [Recipe]
   factory Recipe.fromJson(
     Map<String, dynamic> json, {
-    Uri? originUri,
+    String? originUrl,
   }) {
     return Recipe(
-      uri: originUri,
+      url: originUrl,
       name: json['name'],
       description: json['description'],
       ingredients: [

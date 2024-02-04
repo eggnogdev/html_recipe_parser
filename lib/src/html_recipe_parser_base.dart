@@ -10,7 +10,7 @@ export 'utils/data_fetch.dart';
 class RecipeParser {
   Future<Recipe?> parseUrl(
     String url, {
-    bool saveUri = true,
+    bool saveUrl = true,
   }) async {
     final uri = Uri.parse(url);
     final document = await DataFetchService.getDocument(uri);
@@ -18,7 +18,7 @@ class RecipeParser {
     final parsed = jsonLd != null
         ? Recipe.fromJson(
             jsonLd,
-            originUri: saveUri ? uri : null,
+            originUrl: saveUrl ? url : null,
           )
         : null;
     return parsed;
