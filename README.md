@@ -15,7 +15,7 @@ This package is currently only available through git, so write the following int
 
 ```yaml
 dependencies:
-  measurements:
+  html_recipe_parser:
     git:
       url: https://github.com/eggnogdev/html_recipe_parser.git
       ref: 0.1.0 # the tag, commit, or branch that you want
