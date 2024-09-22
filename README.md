@@ -34,7 +34,3 @@ final recipe = await parser.parseUrl(
 );
 print(recipe);
 ```
-
-## Support this project
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P5GQJKV)
